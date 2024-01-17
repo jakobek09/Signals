@@ -1,6 +1,6 @@
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 CONFIG += c++17
 
@@ -13,10 +13,12 @@ VPATH += src/
 
 SOURCES += \
     main.cpp \
-    src/generatesignal.cpp
+    src/generatesignal.cpp \
+    src/qcustomplot.cpp
 
 HEADERS += \
-    include/generatesignal.h
+    include/generatesignal.h \
+    include/qcustomplot.h
 
 FORMS += \
     generatesignal.ui

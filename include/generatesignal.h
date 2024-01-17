@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::generateSignal *ui;
+
+private slots:
+    void drawSignal();
 };
 #endif // GENERATESIGNAL_H
