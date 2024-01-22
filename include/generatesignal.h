@@ -19,8 +19,13 @@ public:
 
 private:
     Ui::generateSignal *ui;
+    QVector<double> xData, yData;
+    double generate(int type, int index, double phase, double ampli, double freq, int numOfPoints);
 
 private slots:
     void drawSignal();
+    void setVisiblePhase1();
+    void setVisiblePhase2();
+    void setVisiblePhase3();
 };
 #endif // GENERATESIGNAL_H
