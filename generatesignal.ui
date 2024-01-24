@@ -239,123 +239,6 @@
      <string>Sygnał 3</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="sig1F">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>120</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="sig1A">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>120</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig1w">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>120</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig2w">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>190</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig2A">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>190</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig2F">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>190</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig3w">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>260</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig3A">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>260</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_sig3F">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>260</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
@@ -549,7 +432,7 @@
     </item>
     <item>
      <property name="text">
-      <string>Brtlet</string>
+      <string>Bartlet</string>
      </property>
     </item>
    </widget>
@@ -571,23 +454,10 @@
      <string>okno</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>330</y>
-      <width>101</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>widmo sygnału</string>
-    </property>
-   </widget>
    <widget class="QCheckBox" name="checkBox_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>140</x>
       <y>330</y>
       <width>78</width>
       <height>22</height>
@@ -597,17 +467,94 @@
      <string>FFT</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_3">
+   <widget class="QDoubleSpinBox" name="sig1w">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>300</y>
-      <width>78</width>
-      <height>22</height>
+      <x>330</x>
+      <y>120</y>
+      <width>62</width>
+      <height>25</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig1A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>120</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig1F">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig2F">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>190</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig2A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig2w">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>190</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig3F">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>260</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig3A">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>260</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="sig3w">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>260</y>
+      <width>62</width>
+      <height>25</height>
+     </rect>
     </property>
    </widget>
   </widget>

@@ -21,6 +21,11 @@ private:
     Ui::generateSignal *ui;
     QVector<double> xData, yData;
     double generate(int type, int index, double phase, double ampli, double freq, int numOfPoints);
+    QVector<double> calculateFFT(const QVector<double> &inputSignal);
+    double Blackman(int n, int N);
+    double Hanning(int n, int N);
+    double Hamming(int n, int N);
+    double Bartlet(int n, int N);
 
 private slots:
     void drawSignal();
